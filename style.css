@@ -1,0 +1,124 @@
+:root {
+
+	--primary-colour: #3e275a;
+	--secondary-colour: #4b0082; 
+	--link-colour: #750abe;
+	--accent-background: #eeeeef;
+	--background: #fdfafe;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	color: var(--link-colour);
+}
+
+header {
+    display: inline-block;
+    margin-bottom: 2rem;
+	font-family: Helvetica, sans-serif;
+	color: var(--secondary-colour);
+}
+
+header li {
+	display: inline-block;
+	margin: 0 2em;
+}
+
+header li a {
+	display: block;
+	padding: 0.5em 1.5em;
+}
+
+header li a:hover {
+	background: var(--accent-background);
+}
+
+.nav {
+    border: 2px var(--primary-colour) solid;
+	font-size: 1.2em;
+}
+
+.current {
+	background: var(--accent-background);
+}
+
+.title {
+	margin-left: 0em;
+    margin-right: 6em;
+	font-size: 1.4em;
+}
+
+body{
+	background: var(--background);
+}
+
+section {
+  	padding-top: 5rem;
+	margin:5% auto;
+	padding:0 .6em;
+	font-family: Helvetica, sans-serif;
+	margin-right: 50em;
+	max-width: 50em;
+	color: var(--primary-colour);
+}
+
+section p {
+	color: var(--primary-colour);
+	font-size: 1em;
+	line-height: 1.5rem;
+  	word-spacing: .1em;
+  	text-align: justify;
+
+}
+
+section h3 {
+	font-size: 2em;
+}
+
+section li {
+	padding: 0.5em 1.5em;
+}
+
+.publication {
+		margin-top: 0.8rem;
+		margin-left: 1rem;
+}
+
+.publication_author_venue {
+	margin-left: 2em;
+}
+
+.talk_date {
+	font-size: 1.05em;
+	font-weight: bold;
+}
+
+.talk_title_venue {
+	margin-left: 2em;
+}
+
+.appearances {
+	margin-left: 2em;
+}
+
+.contact_title {
+	font-size: 1.05em;
+	font-weight: bold;
+}
+
+.contact_details{
+	margin-left: 2em;
+}
+
+footer {
+	color: var(--primary-colour);
+	margin-top: 6rem;
+	font-size: 12pt;
+}
+
+footer img {
+	padding-right: 1em;
+}
