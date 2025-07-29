@@ -91,16 +91,25 @@ section li {
 	margin-left: 2em;
 }
 
-.talk_date {
+.talk_title {
 	font-size: 1.05em;
 	font-weight: bold;
 }
 
-.talk_title_venue {
+.talk_date_venue {
 	margin-left: 2em;
 }
 
 .appearances {
+	margin-left: 2em;
+}
+
+.curriculum_title {
+	font-size: 1.05em;
+	font-weight: bold;
+}
+
+.curriculum_details {
 	margin-left: 2em;
 }
 
